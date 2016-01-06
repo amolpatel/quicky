@@ -16,3 +16,10 @@ sudo chmod +x quicky
 ```
 sudo cp quicky /usr/local/bin/
 ```
+
+# Example
+
+Open top 5 news websites:
+```
+quicky news
+```
