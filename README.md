@@ -9,13 +9,10 @@ Open terminal and naviate to Desktop
 
 ```
 git clone https://github.com/amolpatel/quicky.git
-
 ```
 ```
 sudo chmod +x quicky
-
 ```
 ```
 sudo cp quicky /usr/local/bin/
-
 ```
