@@ -1,11 +1,11 @@
 # Quicky
 
 # Usage
-Quicky is a simple command line script that opens the most popular websites based on the category chosen by the user
+Quicky is a simple command line script that opens the most popular websites based on the category chosen by the user. It can be run from anywhere on the machine using the terminal
 
 # Installing
 
-Open terminal and naviate to Desktop
+Open terminal and cd to Desktop
 
 ```
 git clone https://github.com/amolpatel/quicky.git
