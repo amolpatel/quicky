@@ -1,0 +1,53 @@
+#!/bin/bash
+# Quicky
+# Amol Patel
+
+
+function news {
+	open https://news.google.com/
+	open http://news.yahoo.com/
+	open http://www.huffingtonpost.com/
+	open http://www.cnn.com/
+	open http://www.nytimes.com/
+}
+
+function social {
+	open http://www.facebook.com/
+	open http://www.twitter.com/
+	open http://www.linkedin.com/
+	open http://www.instagram.com/
+	open http://www.vine.co/
+}
+
+function sports {
+	open http://espn.go.com/
+	open http://bleacherreport.com/
+	open http://www.si.com/
+	open http://deadspin.com/
+}
+
+
+case "$1" in 
+   news) 
+      echo "Opening news"
+      news
+      ;; 
+   social)
+      echo "Opening social media"
+      social
+      ;; 
+    sports)
+      echo "Opening sports"
+      sports
+      ;; 
+   *)  
+      echo "Usage: quicky [news] [social] [sports]"
+	  echo "Help: Quicky opens popular websites in a new window of the default browser based on the category chosen."
+	  echo "Categories:"
+	  echo "news             Opens Google News, Yahoo! News, Huffington Post, CNN, and NY Times"
+	  echo "social           Opens Facebook, Twitter, Linkedin, Instagram, and Vine"
+	  echo "sports           Opens ESPN, Bleacher Report, Sports Illustrated, and Deadspin"
+      exit 1
+esac 
+
+
