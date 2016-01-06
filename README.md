@@ -11,6 +11,9 @@ Open terminal and cd to Desktop
 git clone https://github.com/amolpatel/quicky.git
 ```
 ```
+cd quicky
+```
+```
 sudo chmod +x quicky
 ```
 ```
